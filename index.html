@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box" id="signupBox">
+            <div class="left-section">
+                <h1 id="welcomeText">WELCOME BACK!</h1>
+                <p id="welcomeMessage">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="right-section">
+                <h2 id="formTitle">Sign Up</h2>
+                <form id="form">
+                    <div class="input-box">
+                        <input type="text" id="username" required>
+                        <label id="labelUsername">Username</label>
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="input-box" id="emailBox">
+                        <input type="email" id="email" required>
+                        <label>Email</label>
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" id="password" required>
+                        <label>Password</label>
+                        <i class="fa fa-lock"></i>
+                    </div>
+                    <button type="submit" class="signup-btn" id="formButton">Sign Up</button>
+                </form>
+                <p id="formToggle">Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
